@@ -1,0 +1,12 @@
+Administrateur :
+ajouter_produit <idProduit> <nomProduit> <quantite> <prix>
+modifier_produit <idProduit> <quantite> <prix>
+supprimer_produit <idProduit>
+
+------------------------------------------------
+Client :
+catalogue
+ajouter_au_chariot <idProduit> <quantite>
+commander
+afficher_chariot
+voir_commandes
